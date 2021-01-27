@@ -1,4 +1,4 @@
-/* login page styles */
+/* signup page styles */
 body {
   font-family: 'Roboto', sans-serif;
 }
@@ -62,7 +62,7 @@ button {
   margin: 15px;
   position: relative;
   top: 50%;
-  left: 9%;
+  left: 30%;
   border-radius: 2px;
   background-color: #56c1d1;
 }
