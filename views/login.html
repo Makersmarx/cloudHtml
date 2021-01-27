@@ -13,29 +13,38 @@
     <link rel="stylesheet" type="text/css" href="../styles/style.css" />
   </head>
   <body>
-    <h1 class="logo">Cloudy</h1>
+    <header class="logo">
+      <h1>Cloudy</h1>
+    </header>
 
     <main>
-      <div class="img">
+      <div class="log-main">
         <img
+          class="log-image"
           src="../resources/head.png"
           alt="person with head in
       clouds"
-          height="245px"
-          width="435px"
         />
-      </div>
-      <div class="desc">
-        <h2>Head In The Clouds</h2>
+        <h2 class="desc">Head In The Clouds</h2>
         <br />
-        <p>A collection of user created content for our greatest asset.</p>
+        <p class="info">
+          A collection of user created content for our greatest asset.
+        </p>
+        <p class="info-2">Please login below or register a new account.</p>
       </div>
     </main>
-    <input type="text" placeholder="Username" />
-    <input type="text" placeholder="Password" />
-    <button>Login</button>
-    <button>Register</button>
-    <footer></footer>
+    <section class="log-input">
+      <form>
+        <label for="username"></label>
+        <input type="text" id="username" placeholder="Username" required />
+        <label for="password"></label>
+        <input type="password" id="password" placeholder="Password" required />
+        <div log-buttons>
+          <button>Login</button>
+          <button>Register</button>
+        </div>
+      </form>
+    </section>
 
     <script src="../scripts/script.js"></script>
   </body>

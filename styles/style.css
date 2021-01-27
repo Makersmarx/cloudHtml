@@ -1,4 +1,109 @@
 /* login page styles */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+  font-size: 30px;
+  color: #56c1d1;
+  width: 112px;
+  height: 52px;
+  padding-top: 15px;
+  padding-left: 12px;
+}
+
+.log-main {
+  background-color: #ffe2d8;
+  height: 585px;
+}
 
 img {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  width: 500px;
+  border-radius: 5px;
+}
+
+.desc {
+  position: fixed;
+  top: 30%;
+  left: 15%;
+  font-size: 30px;
+}
+
+.info {
+  position: fixed;
+  top: 40%;
+  left: 15%;
+}
+
+.info-2 {
+  position: fixed;
+  top: 45%;
+  left: 15%;
+}
+
+.log-input {
+  position: fixed;
+  top: 55%;
+  left: 15%;
+}
+
+.log-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+button {
+  height: 32px;
+  width: 117px;
+  margin: 15px;
+  position: relative;
+  top: 50%;
+  left: 9%;
+  border-radius: 2px;
+  background-color: #56c1d1;
+}
+
+button:hover {
+  background-color: #f07269;
+}
+
+.log-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+li {
+  position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    display: none;
+  }
+
+  .log-main {
+    width: auto;
+  }
+
+  button {
+    left: -5px;
+    width: 65px;
+    background-color: #f07269;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .log-main {
+    background-image: url(../resources/head.png);
+    background-repeat: no-repeat;
+  }
 }
