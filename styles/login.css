@@ -98,18 +98,30 @@ h4 {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 /* adjust elements for smaller screen sizes */
 
 @media only screen and (max-width: 600px) {
+  .log-main {
+    background-color: #d6e6ea;
+  }
+
   img {
     display: none;
   }
 
   .log-main {
-    width: auto;
+    width: 100%;
+  }
+
+  .info {
+    font-size: 14px;
+  }
+
+  .info-2 {
+    font-size: 10px;
   }
 
   button {
