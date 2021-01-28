@@ -1,0 +1,49 @@
+.home-title {
+  font: 400 50px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  color: #f07269;
+  display: flex;
+  justify-content: center;
+  background-color: #ffe2d8;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.logout {
+  font-size: 20px;
+  float: right;
+  padding-top: 5px;
+}
+
+img {
+  margin: 5px;
+  width: 200px;
+  height: 200px;
+  border-radius: 17%;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 35px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+footer {
+  font: 400 20px/1.3 'Berkshire Swash', Helvetica, sans-serif;
+  color: #f07269;
+  display: flex;
+  justify-content: center;
+  background-color: #ffe2d8;
+  margin-top: 65px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
