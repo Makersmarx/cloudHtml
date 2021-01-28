@@ -35,13 +35,18 @@
     <section class="log-input">
       <form>
         <label for="username"></label>
-        <input type="text" id="username" placeholder="Username" required />
+        <input type="text" id="userName" placeholder="Username" required />
 
         <label for="password"></label>
-        <input type="password" id="password" placeholder="Password" required />
+        <input
+          type="password"
+          id="userPassword"
+          placeholder="Password"
+          required
+        />
 
         <div log-buttons>
-          <button onclick="localStore()">Register</button>
+          <button onclick="storeUser()">Register</button>
         </div>
       </form>
     </section>

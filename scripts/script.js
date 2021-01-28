@@ -1,30 +1,27 @@
-const localStore = () => {
-  const getName = document.getElementById('username');
+const storeUser = () => {
+  const storeName = document.getElementById('username');
   const password = document.getElementById('password');
 
-  if (getName.value.length === 0) {
+  if (storeName.value.length === 0 || password.value.length === 0) {
     alert('Please try again');
-  } else if (password.value.length === 0) {
-    alert('Please try again');
-  } else if (getName.value.length === 0 && password.value.length == 0) {
-    alert('Please fill in email and password');
   } else {
-    localStorage.setItem('name', getName.value);
+    localStorage.setItem('username', storeName.value);
     localStorage.setItem('password', password.value);
     alert('Your account has been created');
+    window.location.href = 'index.html';
   }
 };
 
-//checking
-const check = () => {
-  const storedName = localStorage.getItem('getName');
+//check local storage for user
+const checkUser = () => {
+  const storedName = localStorage.getItem('username');
   const storedPassword = localStorage.getItem('password');
 
-  const userName = document.getElementById('username');
-  const userPassword = document.getElementById('password');
+  const userName = document.getElementById('userName');
+  const userPassword = document.getElementById('userPassword');
 
   if (userName.value === storedName && userPassword.value === storedPassword) {
-    alert('You are logged in.');
+    window.location.href = '../index.html';
   } else {
     alert('Error on login');
   }
