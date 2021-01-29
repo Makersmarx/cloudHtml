@@ -103,7 +103,7 @@ h4 {
 
 /* adjust elements for smaller screen sizes */
 
-@media only screen and (max-width: 00px) {
+@media only screen and (max-width: 800px) {
   .logo {
     font-size: 30px;
     padding-bottom: 10px;
