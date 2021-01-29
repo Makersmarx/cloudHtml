@@ -103,7 +103,12 @@ h4 {
 
 /* adjust elements for smaller screen sizes */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 00px) {
+  .logo {
+    font-size: 30px;
+    padding-bottom: 10px;
+  }
+
   .log-main {
     background-color: #d6e6ea;
   }
@@ -118,10 +123,16 @@ h4 {
 
   .info {
     font-size: 14px;
+    left: 86px;
   }
 
   .info-2 {
     font-size: 10px;
+    left: 85px;
+  }
+
+  .log-input {
+    left: 85px;
   }
 
   button {
