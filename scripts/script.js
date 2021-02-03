@@ -1,5 +1,7 @@
 // register user in local storage
 
+// add event listener onclick and preventDefault and test / upgrade this snippet
+
 const storeUser = () => {
   const storeName = document.getElementById('userName');
   const password = document.getElementById('userPassword');
